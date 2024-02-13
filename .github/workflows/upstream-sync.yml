@@ -8,7 +8,7 @@ env:
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day at midnight
+    - cron: "*/5 * * * *" # every 5 min
   workflow_dispatch:
 
 jobs:
